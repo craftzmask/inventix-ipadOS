@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var optionIds = Set<Int>()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationSplitView {
+            List(SidebarMenuOptionModel.allCases, selection: $optionIds) { option in
+                SidebarMenuRowView(option: option)
+            }
+            .navigationSplitViewColumnWidth(220)
+            .navigationTitle("Inventix")
+            .scrollContentBackground(.hidden)
+        } detail: {
+            
+            switch optionIds.first {
+            case 0:
+                DashboardView()
+            case 1:
+                ProductListView()
+            default:
+                Text("Empty")
+            }
+            
         }
-        .padding()
     }
 }
 

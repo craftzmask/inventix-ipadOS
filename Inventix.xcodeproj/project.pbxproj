@@ -11,6 +11,13 @@
 		B41537212B796EBB008191FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537202B796EBB008191FA /* ContentView.swift */; };
 		B41537232B796EBE008191FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41537222B796EBE008191FA /* Assets.xcassets */; };
 		B41537262B796EBE008191FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41537252B796EBE008191FA /* Preview Assets.xcassets */; };
+		B415372D2B796F30008191FA /* SidebarMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B415372C2B796F30008191FA /* SidebarMenuOptionModel.swift */; };
+		B415372F2B797037008191FA /* SidebarMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B415372E2B797037008191FA /* SidebarMenuRowView.swift */; };
+		B41537312B797EEB008191FA /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537302B797EEB008191FA /* DashboardView.swift */; };
+		B41537332B797F81008191FA /* KPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537322B797F81008191FA /* KPIView.swift */; };
+		B41537352B79854E008191FA /* OverviewChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537342B79854E008191FA /* OverviewChartView.swift */; };
+		B41537372B798826008191FA /* SaleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537362B798826008191FA /* SaleListView.swift */; };
+		B41537392B79AF80008191FA /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41537382B79AF80008191FA /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		B41537202B796EBB008191FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B41537222B796EBE008191FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41537252B796EBE008191FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B415372C2B796F30008191FA /* SidebarMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenuOptionModel.swift; sourceTree = "<group>"; };
+		B415372E2B797037008191FA /* SidebarMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenuRowView.swift; sourceTree = "<group>"; };
+		B41537302B797EEB008191FA /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B41537322B797F81008191FA /* KPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIView.swift; sourceTree = "<group>"; };
+		B41537342B79854E008191FA /* OverviewChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewChartView.swift; sourceTree = "<group>"; };
+		B41537362B798826008191FA /* SaleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleListView.swift; sourceTree = "<group>"; };
+		B41537382B79AF80008191FA /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,17 @@
 		B415371D2B796EBB008191FA /* Inventix */ = {
 			isa = PBXGroup;
 			children = (
+				B41537382B79AF80008191FA /* ProductListView.swift */,
 				B415371E2B796EBB008191FA /* InventixApp.swift */,
 				B41537202B796EBB008191FA /* ContentView.swift */,
+				B41537302B797EEB008191FA /* DashboardView.swift */,
+				B41537342B79854E008191FA /* OverviewChartView.swift */,
+				B41537322B797F81008191FA /* KPIView.swift */,
 				B41537222B796EBE008191FA /* Assets.xcassets */,
 				B41537242B796EBE008191FA /* Preview Content */,
+				B415372C2B796F30008191FA /* SidebarMenuOptionModel.swift */,
+				B415372E2B797037008191FA /* SidebarMenuRowView.swift */,
+				B41537362B798826008191FA /* SaleListView.swift */,
 			);
 			path = Inventix;
 			sourceTree = "<group>";
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41537212B796EBB008191FA /* ContentView.swift in Sources */,
+				B41537372B798826008191FA /* SaleListView.swift in Sources */,
+				B415372F2B797037008191FA /* SidebarMenuRowView.swift in Sources */,
+				B41537312B797EEB008191FA /* DashboardView.swift in Sources */,
+				B41537352B79854E008191FA /* OverviewChartView.swift in Sources */,
 				B415371F2B796EBB008191FA /* InventixApp.swift in Sources */,
+				B41537392B79AF80008191FA /* ProductListView.swift in Sources */,
+				B415372D2B796F30008191FA /* SidebarMenuOptionModel.swift in Sources */,
+				B41537332B797F81008191FA /* KPIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
